@@ -1,0 +1,9 @@
+{
+  "cell_size_m": 0.5,
+  "maze_size_m": 3.5,
+  "start_cell": [1, 3],
+  "target_cell": [1, 7],
+  "object_cell_for_demo": [5, 4],
+  "object_dimensions_m": [0.02, 0.03, 0.20],
+  "notes": "The task node uses this coordinate convention: x=(column-4)*0.5, y=(row-4)*0.5."
+}
