@@ -1,4 +1,4 @@
-# AI407 Maze Robot: Object Retrieval Simulation
+# Turtlebot Maze: Object Retrieval Simulation
 
 A ROS 2 and Gazebo Classic project demonstrating a TurtleBot3-style robot retrieving two objects in a 7 × 7 maze, delivering them to a target cell, and returning to its starting point.
 
@@ -33,8 +33,8 @@ presentation/            # PowerPoint presentation
 Use a Linux environment with ROS 2, Gazebo Classic, `gazebo_ros`, `gazebo_msgs`, and the colcon build tools installed. Source your ROS 2 installation first.
 
 ```bash
-git clone https://github.com/Abdulazeez332/ai407-maze-robot.git
-cd ai407-maze-robot
+git clone https://github.com/Abdulazeez332/turtlebot-maze.git
+cd turtlebot-maze
 rosdep install --from-paths src --ignore-src -r -y
 colcon build --symlink-install
 source install/setup.bash
